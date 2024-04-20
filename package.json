@@ -41,7 +41,7 @@
     "@types/react-dom": "^18",
     "husky": "~8.0.3",
     "lint-staged": "~13.2.2",
-    "next": "12.3.4",
+    "next": "latest",
     "vercel": "~32.4.1"
   },
   "packageManager": "yarn@3.2.3",

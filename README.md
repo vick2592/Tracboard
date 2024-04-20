@@ -1,4 +1,4 @@
-# 🏗 Scaffold-ETH 2
+# TRACBOARD
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
@@ -7,7 +7,7 @@
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
-⚙️ Built using NextJS, RainbowKit, Foundry, Wagmi, Viem, and Typescript.
+⚙️ Built using Moralis, NextJS, RainbowKit, Foundry, Wagmi, Viem, and Typescript.
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
 - 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
@@ -35,8 +35,13 @@ To get started with Scaffold-ETH 2, follow the steps below:
 cd my-dapp-example
 yarn install
 ```
+2. Setting up your Moralis API installation.
 
-2. Run a local network in the first terminal:
+```
+ yarn add moralis @moralisweb3/next next-auth next@12.3.4 react react-dom
+```
+
+3. Run a local network in the first terminal:
 
 ```
 yarn chain
@@ -44,7 +49,7 @@ yarn chain
 
 This command starts a local Ethereum network using Foundry. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `packages/foundry/foundry.toml`.
 
-3. On a second terminal, deploy the test contract:
+4. On a second terminal, deploy the test contract:
 
 ```
 yarn deploy
@@ -52,7 +57,7 @@ yarn deploy
 
 This command deploys a test smart contract to the local network. The contract is located in `packages/foundry/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/foundry/script` to deploy the contract to the network. You can also customize the deploy script.
 
-4. On a third terminal, start your NextJS app:
+5. On a third terminal, start your NextJS app:
 
 ```
 yarn start
