@@ -11,10 +11,10 @@ contract ScaffoldETHDeploy is Script {
         string name;
         address addr;
     }
-    struct Chain {
+struct DeployChain {
     uint256 id;
     string name;
-    }
+}
 
     string root;
     string path;
