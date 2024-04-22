@@ -17,11 +17,13 @@
   },
   "dependencies": {
     "dotenv": "~16.3.1",
+    "ds-test": "github:dapphub/ds-test",
     "envfile": "~6.18.0",
     "ethers": "~5.7.1",
-    "forge-std": "^1.1.2",
+    "forge-std": "github:foundry-rs/forge-std",
     "prettier": "~2.8.8",
     "qrcode": "~1.5.3",
+    "solidity-bytes-utils": "0.8.2",
     "toml": "~3.0.0"
   },
   "devDependencies": {

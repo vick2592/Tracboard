@@ -2014,11 +2014,13 @@ __metadata:
     "@types/prettier": 2
     "@types/qrcode": 1
     dotenv: ~16.3.1
+    ds-test: "github:dapphub/ds-test"
     envfile: ~6.18.0
     ethers: ~5.7.1
-    forge-std: ^1.1.2
+    forge-std: "github:foundry-rs/forge-std"
     prettier: ~2.8.8
     qrcode: ~1.5.3
+    solidity-bytes-utils: 0.8.2
     toml: ~3.0.0
   languageName: unknown
   linkType: soft
@@ -4446,9 +4448,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001587, caniuse-lite@npm:^1.0.30001599":
-  version: 1.0.30001611
-  resolution: "caniuse-lite@npm:1.0.30001611"
-  checksum: c5beb4a0aaabe24b01a577122c61e20ca0614d2e3adfd2e4de8dbdb8529eb9dba9922be8fd8be9eba48b6cadaada0b338aa3e0d0a17f42f6b3e9a614492c029a
+  version: 1.0.30001612
+  resolution: "caniuse-lite@npm:1.0.30001612"
+  checksum: 2b6ab6a19c72bdf8dccac824944e828a2a1fae52c6dfeb2d64ccecfd60d0466d2e5a392e996da2150d92850188a5034666dceed34a38d978177f6934e0bf106d
   languageName: node
   linkType: hard
 
@@ -5256,6 +5258,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ds-test@github:dapphub/ds-test":
+  version: 1.0.0
+  resolution: "ds-test@https://github.com/dapphub/ds-test.git#commit=e282159d5170298eb2455a6c05280ab5a73a4ef0"
+  checksum: 8f36e20dde868d062841c790fc43c9dd18b93d6180995f378bedaee1f24444950838843c0f2ffa5ac3b8a21b4c29fd97a60725e29e8ff71c9cf28f837614d96f
+  languageName: node
+  linkType: hard
+
 "duplexify@npm:^4.1.2":
   version: 4.1.3
   resolution: "duplexify@npm:4.1.3"
@@ -5306,9 +5315,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.744
-  resolution: "electron-to-chromium@npm:1.4.744"
-  checksum: 917a178500bd8a78ae73c2ad9e71981922ec47e443ca1dfdfbc7a343334e6dfbbaa28e612313710c35b6538b1332dc4d14dd533eb274a587ffad79b3f9908989
+  version: 1.4.745
+  resolution: "electron-to-chromium@npm:1.4.745"
+  checksum: f73b576108863cad160deb22b8e8c6754a8b16b22cda90cfce038a755f886be9c03fb8360bbd7c9d28ddd184800d0d6bd430a11f9289316145f0b28321dfe71d
   languageName: node
   linkType: hard
 
@@ -6650,6 +6659,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"forge-std@github:foundry-rs/forge-std":
+  version: 1.7.6
+  resolution: "forge-std@https://github.com/foundry-rs/forge-std.git#commit=5dd1c68131ddd3c89ef169666eb262b92e90507c"
+  checksum: b20cc84a325e7a7350d93de34630a5d13794dde28c39b19e90293979f162e86509fec16fa8988132662ca6cdf1e48456e830c4d448f14277f85142e26d14d345
+  languageName: node
+  linkType: hard
+
 "forge-std@npm:^1.1.2":
   version: 1.1.2
   resolution: "forge-std@npm:1.1.2"
@@ -7438,9 +7454,9 @@ __metadata:
   linkType: hard
 
 "iron-webcrypto@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "iron-webcrypto@npm:1.1.0"
-  checksum: 75cdc0931a9ff701dfd699c48eeeb855bc07c2525f72f4086d0790e18133e44e8253949cf109240c149aa0b823f376c4eff4b2e69d4540914d54b2200b19f460
+  version: 1.1.1
+  resolution: "iron-webcrypto@npm:1.1.1"
+  checksum: 659530b7821b51f81342dc73299801cff2fecb07bc9bf36d03a83337f3d12806aa03721067fa49fff393ad46202fcbb18011dbd11d716fa5a570c7880fb558d8
   languageName: node
   linkType: hard
 
@@ -8879,7 +8895,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:latest":
+next@latest:
   version: 14.2.2
   resolution: "next@npm:14.2.2"
   dependencies:
@@ -10946,6 +10962,16 @@ __metadata:
     ip-address: ^9.0.5
     smart-buffer: ^4.2.0
   checksum: 7a6b7f6eedf7482b9e4597d9a20e09505824208006ea8f2c49b71657427f3c137ca2ae662089baa73e1971c62322d535d9d0cf1c9235cf6f55e315c18203eadd
+  languageName: node
+  linkType: hard
+
+"solidity-bytes-utils@npm:0.8.2":
+  version: 0.8.2
+  resolution: "solidity-bytes-utils@npm:0.8.2"
+  dependencies:
+    ds-test: "github:dapphub/ds-test"
+    forge-std: ^1.1.2
+  checksum: 2be608f1aacfc2ff194d55e0c2b10abab3b88af262811b6c011933c6d049238fbd743c9de79a8e6cb46b1726349f47fe6132e81a9eaca21a588eb213f85a2fb4
   languageName: node
   linkType: hard
 

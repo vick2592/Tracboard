@@ -1,2 +1,2 @@
 @openzeppelin/contracts/=lib/openzeppelin-contracts/contracts
-forge-std/=./node_modules/forge-std
+forge-std/=/node_modules/forge-std

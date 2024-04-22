@@ -1,9 +1,9 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import "forge-std/Script.sol";
-import "forge-std/Vm.sol";
-import "solidity-bytes-utils/BytesLib.sol";
+import "../node_modules/forge-std/src/Script.sol";
+import "../node_modules/forge-std/src/Vm.sol";
+import "../node_modules/solidity-bytes-utils/contracts/BytesLib.sol";
 
 /**
  * @dev Temp Vm implementation
