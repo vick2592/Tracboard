@@ -1,9 +1,11 @@
 # TRACBOARD
 
-🧪 An open-source, up-to-date portfolio dashboard scanner that is compatible with various chains and networks, which are supported by Moralis. 
+🧪 An open-source, web 3 portfolio dashboard that displays all your tokens and NFTs from various chains in one place. 
 
 ⚙️ Built using Moralis, NextJS, RainbowKit, Foundry, Wagmi, Viem, and Typescript.
 
+Key features
+- ✅ **View Wallet**: Simply connect wallet and search any address to view all assets.
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
 - 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
 - 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
