@@ -12,7 +12,7 @@ Key features
 - 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
 - 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
 
-![Debug Contracts tab](https://github.com/vick2592/Tracboard/blob/main/Tracboard%20preview.png)
+![Debug Contracts tab](https://github.com/vick2592/Tracboard/blob/main/Tracboard%20Preview.png)
 
 ## Requirements
 
