@@ -7,10 +7,10 @@
 Key features
 - ✅ **View Wallet**: Simply connect wallet and search any address to view all assets.
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+- ✅ **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
+- ✅ [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
+- ✅ **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
+- ✅ **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
 
 ![Debug Contracts tab](https://github.com/vick2592/Tracboard/blob/main/Tracboard%20Preview.png)
 
