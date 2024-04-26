@@ -4,10 +4,6 @@ import { useEffect, useState } from "react";
 import Moralis from "moralis";
 import { useAccount } from "wagmi";
 
-// import { AdjustmentsHorizontalIcon, BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-
-// Moralis.start({ apiKey: process.env.NEXT_PUBLIC_MORALIS_API_KEY }); // Initialize Moralis here
-
 const Dashboard = ({ params }) => {
   const addressHook = params?.address;
   const { address: connectedAddress, chain, chainId } = useAccount();
@@ -16,7 +12,7 @@ const Dashboard = ({ params }) => {
   const [balances, setBalances] = useState(null);
   const [currentTab, setCurrentTab] = useState("tokens"); // Add this line
   const [balancesNFT, setBalancesNFT] = useState(null); // Add this line
-
+  
   useEffect(() => {
     if (!window.MoralisStarted) {
       Moralis.start({ apiKey: process.env.NEXT_PUBLIC_MORALIS_API_KEY }); // Initialize Moralis here
@@ -64,7 +60,7 @@ const Dashboard = ({ params }) => {
           Chain ID: {chainID} {chainName}
         </p>
 
-        {/* Add these lines */}
+        {/* Buttons to switch between from Viewing tokens and NFTs */}
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2"
           onClick={() => setCurrentTab("tokens")}

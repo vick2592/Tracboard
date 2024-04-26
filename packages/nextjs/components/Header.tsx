@@ -4,7 +4,7 @@ import React, { useCallback, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Bars3Icon, BugAntIcon, AdjustmentsHorizontalIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, BugAntIcon } from "@heroicons/react/24/outline";
 import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
 
@@ -75,7 +75,7 @@ export const Header = () => {
           <div className="flex relative w-10 h-10">
             <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
           </div>
-          </Link>
+        </Link>
         <div className="lg:hidden dropdown" ref={burgerMenuRef}>
           <label
             tabIndex={0}
